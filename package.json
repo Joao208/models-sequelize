@@ -3,10 +3,6 @@
   "version": "1.0.15",
   "author": "@joao208",
   "typings": "./src/index.ts",
-  "files": [
-    "/src",
-    "README"
-  ],
   "main": "dist/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
