@@ -34,6 +34,7 @@ jobs:
       - run: git config --global user.name 'joao208'
       - run: git config --global user.email 'joao.augusto@foodzilla.com.br'
       - run: npm ci
+      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
