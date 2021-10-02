@@ -1,0 +1,23 @@
+{
+  "name": "models-sequelize",
+  "version": "1.0.15",
+  "author": "@joao208",
+  "typings": "./src/index.ts",
+  "files": [
+    "/src",
+    "README"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "js-logger": "^1.6.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
