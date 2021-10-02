@@ -1,6 +1,6 @@
 {
   "name": "models-sequelize",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "author": "@joao208",
   "typings": "./src/index.ts",
   "main": "dist/index.js",
