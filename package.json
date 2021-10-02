@@ -4,6 +4,7 @@
   "author": "@joao208",
   "typings": "./src/index.ts",
   "main": "dist/index.js",
+  "repository":"https://github.com/Joao208/models-sequelize",
   "scripts": {
     "start": "ts-node src/index.ts",
     "build:version": "npm version patch",
