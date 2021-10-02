@@ -8,7 +8,7 @@
     "start": "ts-node src/index.ts",
     "build:version": "npm version patch",
     "build:path": "tsc --build",
-    "ci": "npm run build:version && npm run build:path"
+    "build": "npm run build:version && npm run build:path"
   },
   "devDependencies": {
     "fs": "^0.0.1-security",
