@@ -6,7 +6,9 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "build": "tsc --build"
+    "build:version": "npm version patch",
+    "build:path": "tsc --build",
+    "build": "npm run build:version && npm run build:path"
   },
   "devDependencies": {
     "fs": "^0.0.1-security",
