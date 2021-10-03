@@ -14,17 +14,6 @@
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@controllers/*": ["./src/controllers/*"],
-      "@models/*": ["./src/models/*"],
-      "@errors/*": ["./src/errors/*"],
-      "@interfaces/*": ["./src/interfaces/*"],
-      "@middlewares/*": ["./src/middlewares/*"],
-      "@routes/*": ["./src/routes/*"],
-      "@services/*": ["./src/services/*"],
-      "@validator/*": ["./src/validator/*"],
-      "@logs/*": ["./src/logs/*"]
-    }
+    "baseUrl": "."
   }
 }
